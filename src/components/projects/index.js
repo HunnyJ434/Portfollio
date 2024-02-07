@@ -1,11 +1,20 @@
 import fishImg from "./Images/fish.png"
 import tttImg from "./Images/tic-tac-toe.png"
 import cTranslateImg from "./Images/cTranslate.png"
-
+import dictionaryImg from "./Images/mainIcon.png"
 function Projects() {
 
     return(
         <div className="m-auto mt-[1rem] pt-[1rem] px-4 rounded-[1.5rem] bg-white opacity-50 w-[90%] ">
+            <div className="flex   border-b-[1.5px]">
+                <img className="w-[12rem] rounded-lg h-[9rem] bg-[orange]" src={dictionaryImg} alt="project Pic"></img>
+                <div className="mx-4 w-[100%]">
+                    <h1 className="text-left font-bold text-[1.1rem]">Ojibwe Dictionary</h1>
+                    <p className="text-left mb-[3rem] sm:mb-[1.5rem] md:mb-0 py-3 font-semibold h-[6.5rem] text-[0.6rem] md:text-[0.9rem] lg:text-[1.1rem]">Ojibwe Dictonary and Translator build using Nextjs, Python and Goolge Firebase</p>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/HunnyJ434/ojibwe-dictionary"  className="text-[0.6rem]  md:text-[0.9rem] lg:text-[1.1rem]    sm:ml-[50%] lg:ml-[69%] ml-[3rem] mr-[1rem] hover:mr-[0] hover:bg-[#f1f72a] hover:text-[0.7rem] md:hover:text-[1rem] lg:hover:text-[1.2rem] rounded-xl hover:p-[0.5rem] w-[7rem]  opacity-100  h-[3rem] hover:duration-500 hover:ease-in-out  hover:transition-all">Visit Git-Repo</a>
+                    <a target="_blank" rel="noreferrer" href="http://www.ojibwedictionary.com/" className="text-[0.6rem] md:text-[0.9rem] lg:text-[1.1rem]  hover:bg-[#f1f72a] hover:text-[0.7rem] md:hover:text-[1rem] lg:hover:text-[1.2rem] rounded-xl hover:p-[0.5rem] w-[7rem]  opacity-100  h-[3rem] hover:duration-500 hover:ease-in-out  hover:transition-all">Visit Site</a>
+                </div>
+            </div>
             <div className="flex   border-b-[1.5px]">
                 <img className="w-[10rem] rounded-lg h-[9rem] bg-black" src={fishImg} alt="project Pic"></img>
                 <div className="mx-4">

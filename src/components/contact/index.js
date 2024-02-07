@@ -22,7 +22,7 @@ function ContactMe() {
      
       <div className='form-container w-[80%] md:w-[40%]'>
       <h1 className='text-[3rem] text-white text-left m-2'>Contact Me :<span className='text-[#f01d32]'>)</span></h1> 
-      <p className='text-white hidden md:block m-2 mx-3 text-left font-semibold w-[100%] md:w-[22rem]'>I'm a fourth year <span className='text-[#f01d32] text-bold hover:text-[1.3rem] hover:duration-500 hover:ease-in-out  hover:transition-all'>Computer Science</span> student, and a professional <span className='text-[#f01d32] text-bold text-bold hover:text-[1.3rem] hover:duration-500 hover:ease-in-out  hover:transition-all'>Web Developer</span>. Ping me a message for any inqury.</p>
+      <p className='text-white hidden md:block m-2 mx-3 text-left font-semibold w-[100%] md:w-[22rem]'>I'm a fourth year <span className='text-[#f01d32] text-bold hover:text-[1.3rem] hover:duration-500 hover:ease-in-out  hover:transition-all'>Computer Science</span> student, and a professional <span className='text-[#f01d32] text-bold text-bold hover:text-[1.3rem] hover:duration-500 hover:ease-in-out  hover:transition-all'>Web Developer</span>. Ping me a message for business inqury.</p>
         <form className='flex flex-col ' ref={form} onSubmit={sendEmail}>
           <input className='w-[25rem] md:w-[18rem] m-2 mx-3 rounded-md p-1' type="text" placeholder='Name' name="name" />
           <input className='w-[25rem] md:w-[18rem] m-2 mx-3 rounded-md p-1' placeholder='Email' type="email" name="email" />
@@ -35,7 +35,7 @@ function ContactMe() {
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[48.4355143, -89.2533511]}>
                   <Popup>
-               Ya boy lives in here <br />
+               Ya boy lives here <br />
           </Popup>
             </Marker>
           </MapContainer>
