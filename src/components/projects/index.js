@@ -13,7 +13,7 @@ function Projects() {
                     <h1 className="text-left font-bold text-[1.1rem]">Connect</h1>
                     <p className="text-left mb-[3rem] sm:mb-[1.5rem] md:mb-0 py-3 font-semibold h-[6.5rem] text-[0.6rem] md:text-[0.9rem] lg:text-[1.1rem]">A platform where users can chat anonymously with random people or register to chat with friends.</p>
                     <a target="_blank" rel="noreferrer" href="https://github.com/HunnyJ434/connect"  className="text-[0.6rem]  md:text-[0.9rem] lg:text-[1.1rem]    sm:ml-[50%] lg:ml-[69%] ml-[3rem] mr-[1rem] hover:mr-[0] hover:bg-[#f1f72a] hover:text-[0.7rem] md:hover:text-[1rem] lg:hover:text-[1.2rem] rounded-xl hover:p-[0.5rem] w-[7rem]  opacity-100  h-[3rem] hover:duration-500 hover:ease-in-out  hover:transition-all">Visit Git-Repo</a>
-                    <a target="_blank" rel="noreferrer" href="http://34.133.212.1:3000/" className="text-[0.6rem] md:text-[0.9rem] lg:text-[1.1rem]  hover:bg-[#f1f72a] hover:text-[0.7rem] md:hover:text-[1rem] lg:hover:text-[1.2rem] rounded-xl hover:p-[0.5rem] w-[7rem]  opacity-100  h-[3rem] hover:duration-500 hover:ease-in-out  hover:transition-all">Visit Site</a>
+                    <a target="_blank" rel="noreferrer" href="http://18.216.72.247:3000/" className="text-[0.6rem] md:text-[0.9rem] lg:text-[1.1rem]  hover:bg-[#f1f72a] hover:text-[0.7rem] md:hover:text-[1rem] lg:hover:text-[1.2rem] rounded-xl hover:p-[0.5rem] w-[7rem]  opacity-100  h-[3rem] hover:duration-500 hover:ease-in-out  hover:transition-all">Visit Site</a>
                 </div>
             </div>
             <div className="flex   border-b-[1.5px]">
